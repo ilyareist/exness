@@ -3,7 +3,7 @@
 # Checking if software is installed
 which docker >/dev/null 2>&1
 [ $? -ne 0 ] && {
-	echo "Error: Docker is not installed"
+	echo "Error: Docker engine is not installed"
 	exit 1
 }
 
