@@ -8,6 +8,9 @@ cluster_name = "Cluster1"
 service_name = "nginxService"
 task_name = "nginxTask"
 
+
+#fds
+
 #Resources
 #ec2 client
 ec2_client = boto3.client(
