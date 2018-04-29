@@ -1,11 +1,11 @@
 import time
 import requests
-from createEC2 import create_ec2
-from createECSCluster import createECSCluster
-from createTaskDefinition import createTaskDefinition
-from createECSService import *
-from elbv2Services import *
-from resources import *
+from .createEC2 import create_ec2
+from .createECSCluster import createECSCluster
+from .createTaskDefinition import createTaskDefinition
+from .createECSService import *
+from .elbv2Services import *
+from .resources import *
 
 # creating ECS cluster
 print('Creating ECS cluster...')
